@@ -1,0 +1,4 @@
+Analyzed 1 units
+in unit maxandsum, 2 subprograms and packages out of 2 analyzed
+  MaxAndSum at maxandsum.ads:1 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
+  MaxAndSum.MaxAndSum at maxandsum.ads:11 flow analyzed (0 errors and 0 warnings) and not proved, 4 checks out of 5 proved

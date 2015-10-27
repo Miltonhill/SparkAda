@@ -1,0 +1,527 @@
+{
+  "spark": [
+    {
+      "name": "P.Incr_Threshold1",
+      "sloc": [
+        {
+          "file": "p.ads",
+          "line": 10
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "P.Incr_Threshold2",
+      "sloc": [
+        {
+          "file": "p.ads",
+          "line": 14
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "P.Incr_Threshold3",
+      "sloc": [
+        {
+          "file": "p.ads",
+          "line": 18
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "P.Incr_Threshold4",
+      "sloc": [
+        {
+          "file": "p.ads",
+          "line": 24
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "P",
+      "sloc": [
+        {
+          "file": "p.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+    {
+      "file": "p.ads",
+      "line": 12,
+      "col": 14,
+      "rule": "postcondition",
+      "severity": "medium",
+      "entity": {
+        "name": "P.Incr_Threshold1",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 10
+          }
+        ]
+      },
+      "msg_id": 0
+    },
+    {
+      "file": "p.ads",
+      "line": 12,
+      "col": 37,
+      "rule": "overflow_check",
+      "severity": "medium",
+      "entity": {
+        "name": "P.Incr_Threshold1",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 10
+          }
+        ]
+      },
+      "msg_id": 1
+    },
+    {
+      "file": "p.adb",
+      "line": 8,
+      "col": 17,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold1",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 10
+          }
+        ]
+      },
+      "msg_id": 2
+    },
+    {
+      "file": "p.ads",
+      "line": 22,
+      "col": 40,
+      "rule": "contract_case",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold3",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 18
+          }
+        ]
+      },
+      "msg_id": 3
+    },
+    {
+      "file": "p.ads",
+      "line": 16,
+      "col": 40,
+      "rule": "contract_case",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold2",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 14
+          }
+        ]
+      },
+      "msg_id": 4
+    },
+    {
+      "file": "p.adb",
+      "line": 29,
+      "col": 17,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold4",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 24
+          }
+        ]
+      },
+      "msg_id": 5
+    },
+    {
+      "file": "p.ads",
+      "line": 21,
+      "col": 6,
+      "rule": "complete_contract_cases",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold3",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 18
+          }
+        ]
+      },
+      "msg_id": 6
+    },
+    {
+      "file": "p.ads",
+      "line": 15,
+      "col": 53,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold2",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 14
+          }
+        ]
+      },
+      "msg_id": 7
+    },
+    {
+      "file": "p.ads",
+      "line": 21,
+      "col": 6,
+      "rule": "disjoint_contract_cases",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold3",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 18
+          }
+        ]
+      },
+      "msg_id": 8
+    },
+    {
+      "file": "p.ads",
+      "line": 27,
+      "col": 55,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold4",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 24
+          }
+        ]
+      },
+      "msg_id": 9
+    },
+    {
+      "file": "p.ads",
+      "line": 27,
+      "col": 14,
+      "rule": "postcondition",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold4",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 24
+          }
+        ]
+      },
+      "msg_id": 10
+    },
+    {
+      "file": "p.adb",
+      "line": 22,
+      "col": 17,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold3",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 18
+          }
+        ]
+      },
+      "msg_id": 11
+    },
+    {
+      "file": "p.ads",
+      "line": 15,
+      "col": 40,
+      "rule": "contract_case",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold2",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 14
+          }
+        ]
+      },
+      "msg_id": 12
+    },
+    {
+      "file": "p.ads",
+      "line": 21,
+      "col": 53,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold3",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 18
+          }
+        ]
+      },
+      "msg_id": 13
+    },
+    {
+      "file": "p.ads",
+      "line": 20,
+      "col": 14,
+      "rule": "postcondition",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold3",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 18
+          }
+        ]
+      },
+      "msg_id": 14
+    },
+    {
+      "file": "p.ads",
+      "line": 15,
+      "col": 6,
+      "rule": "complete_contract_cases",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold2",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 14
+          }
+        ]
+      },
+      "msg_id": 15
+    },
+    {
+      "file": "p.adb",
+      "line": 15,
+      "col": 17,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold2",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 14
+          }
+        ]
+      },
+      "msg_id": 16
+    },
+    {
+      "file": "p.ads",
+      "line": 15,
+      "col": 6,
+      "rule": "disjoint_contract_cases",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold2",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 14
+          }
+        ]
+      },
+      "msg_id": 17
+    },
+    {
+      "file": "p.ads",
+      "line": 21,
+      "col": 40,
+      "rule": "contract_case",
+      "severity": "info",
+      "entity": {
+        "name": "P.Incr_Threshold3",
+        "sloc": [
+          {
+            "file": "p.ads",
+            "line": 18
+          }
+        ]
+      },
+      "msg_id": 18
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "P.Incr_Threshold4",
+          "sloc": [
+            {
+              "file": "p.ads",
+              "line": 24
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "P.Incr_Threshold2",
+          "sloc": [
+            {
+              "file": "p.ads",
+              "line": 14
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "P.Incr_Threshold4",
+          "sloc": [
+            {
+              "file": "p.ads",
+              "line": 24
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "P.Incr_Threshold2",
+          "sloc": [
+            {
+              "file": "p.ads",
+              "line": 14
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "P.Incr_Threshold4",
+          "sloc": [
+            {
+              "file": "p.ads",
+              "line": 24
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "P.Incr_Threshold1",
+          "sloc": [
+            {
+              "file": "p.ads",
+              "line": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "P.Incr_Threshold3",
+          "sloc": [
+            {
+              "file": "p.ads",
+              "line": 18
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "P.Incr_Threshold3",
+          "sloc": [
+            {
+              "file": "p.ads",
+              "line": 18
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "P.Incr_Threshold3",
+          "sloc": [
+            {
+              "file": "p.ads",
+              "line": 18
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__test.o
+[PROJECT FILES]
+C:\SPARK\2015\share\examples\spark\intro\test.gpr
+20150528103944
+[BOUND OBJECT FILES]
+C:\SPARK\2015\share\examples\spark\intro\sat.o
+C:\SPARK\2015\share\examples\spark\intro\pricing.o
+C:\SPARK\2015\share\examples\spark\intro\test.o
+[GENERATED SOURCE FILES]
+b__test.ads
+b__test.adb
+b__test.ali
+[RESULTING OPTIONS]
+-LC:\SPARK\2015\share\examples\spark\intro\
+-LC:\SPARK\2015\share\examples\spark\intro\
+-LC:/gnat/2015/lib/gcc/i686-pc-mingw32/4.9.3/adalib/
+-static
+-static-libgcc
+C:/gnat/2015/lib/gcc/i686-pc-mingw32/4.9.3/adalib/libgnat.a
+-Wl,--stack=0x2000000

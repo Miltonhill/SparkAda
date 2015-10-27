@@ -1,0 +1,7 @@
+Analyzed 1 units
+in unit p, 5 subprograms and packages out of 5 analyzed
+  P at p.ads:1 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
+  P.Incr_Threshold1 at p.ads:10 flow analyzed (0 errors and 0 warnings) and not proved, 1 checks out of 3 proved
+  P.Incr_Threshold2 at p.ads:14 flow analyzed (0 errors and 0 warnings) and proved (6 checks)
+  P.Incr_Threshold3 at p.ads:18 flow analyzed (0 errors and 0 warnings) and proved (7 checks)
+  P.Incr_Threshold4 at p.ads:24 flow analyzed (0 errors and 0 warnings) and proved (3 checks)

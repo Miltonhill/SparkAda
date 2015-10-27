@@ -1,0 +1,285 @@
+{
+  "spark": [
+    {
+      "name": "MaxAndSum.MaxAndSum",
+      "sloc": [
+        {
+          "file": "maxandsum.ads",
+          "line": 11
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "MaxAndSum",
+      "sloc": [
+        {
+          "file": "maxandsum.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "maxandsum.ads",
+      "line": 11,
+      "col": 43,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 0
+    },
+    {
+      "file": "maxandsum.ads",
+      "line": 11,
+      "col": 62,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 1
+    },
+    {
+      "file": "maxandsum.ads",
+      "line": 12,
+      "col": 19,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 2
+    },
+    {
+      "file": "maxandsum.ads",
+      "line": 12,
+      "col": 30,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 3
+    },
+    {
+      "file": "maxandsum.adb",
+      "line": 11,
+      "col": 33,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 4
+    },
+    {
+      "file": "maxandsum.adb",
+      "line": 11,
+      "col": 50,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 5
+    },
+    {
+      "file": "maxandsum.adb",
+      "line": 12,
+      "col": 17,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 6
+    },
+    {
+      "file": "maxandsum.adb",
+      "line": 13,
+      "col": 13,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 7
+    },
+    {
+      "file": "maxandsum.adb",
+      "line": 16,
+      "col": 25,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 8
+    },
+    {
+      "file": "maxandsum.adb",
+      "line": 16,
+      "col": 36,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 9
+    }
+  ],
+  "proof": [
+    {
+      "file": "maxandsum.ads",
+      "line": 12,
+      "col": 19,
+      "rule": "postcondition",
+      "severity": "info",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 10
+    },
+    {
+      "file": "maxandsum.adb",
+      "line": 16,
+      "col": 25,
+      "rule": "assertion",
+      "severity": "medium",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 11
+    },
+    {
+      "file": "maxandsum.adb",
+      "line": 12,
+      "col": 21,
+      "rule": "overflow_check",
+      "severity": "info",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 12
+    },
+    {
+      "file": "maxandsum.adb",
+      "line": 11,
+      "col": 10,
+      "rule": "loop_invariant_initialization",
+      "severity": "info",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 13
+    },
+    {
+      "file": "maxandsum.adb",
+      "line": 11,
+      "col": 10,
+      "rule": "loop_invariant_preservation",
+      "severity": "info",
+      "entity": {
+        "name": "MaxAndSum.MaxAndSum",
+        "sloc": [
+          {
+            "file": "maxandsum.ads",
+            "line": 11
+          }
+        ]
+      },
+      "msg_id": 14
+    }
+  ],
+  "assumptions": [
+  ]
+}
